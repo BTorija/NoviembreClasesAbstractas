@@ -9,6 +9,7 @@ public class Vendedor extends Empleado {
         return "Vendedor{" +
                 "ventas=" + ventas +
                 ", comision=" + comision +
+                ", nombre='" + nombre + '\'' +
                 ", sueldo=" + sueldo +
                 '}';
     }

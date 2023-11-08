@@ -9,6 +9,7 @@ public class Operador extends Empleado{
         return "Operador{" +
                 "piezas=" + piezas +
                 ", incentivo=" + incentivo +
+                ", nombre='" + nombre + '\'' +
                 ", sueldo=" + sueldo +
                 '}';
     }
