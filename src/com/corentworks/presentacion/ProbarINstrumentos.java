@@ -25,10 +25,15 @@ public class ProbarINstrumentos {
         instrumentos[1]=bataca;
         instrumentos[2]=ham;
         System.out.println();
+        //InstrumentoMusical[instrumentos{guido,bataca,ham}
 
         for (InstrumentoMusical elemento:instrumentos){
             System.out.println("Emitir sonido->" + elemento.emitirSonido());
             System.out.println(elemento.toString());
+        }
+        for (int i=0;i<instrumentos.length;i++){
+            System.out.println(instrumentos[i].emitirSonido());
+            System.out.println(instrumentos[i].toString());
         }
     }
 
